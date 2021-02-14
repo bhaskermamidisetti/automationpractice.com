@@ -1,0 +1,170 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Verify a user can order the Tshirt",
+        "description": "",
+        "id": "ensure-customer-logs-in-to-the-site-and--order-the-t-shirt-successfully;verify-a-user-can-order-the-tshirt",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 19908930187,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Launch automation practice in web",
+            "match": {
+              "location": "LoginPage.launchAutomationPractice()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24073294942,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The user Signin with credentials",
+            "match": {
+              "location": "LoginPage.userSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15765568321,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Enter email and password",
+            "match": {
+              "location": "LoginPage.enterEmailAndPassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11717971934,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user click on Tshirts",
+            "match": {
+              "location": "ProductPage.clickTshirtTab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11080838736,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Place the Order for Tshirt",
+            "match": {
+              "location": "ProductPage.placeTheOrderForTshirt()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@order"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "To update the personal information",
+        "description": "",
+        "id": "ensure-customer-logs-in-to-the-site-and--order-the-t-shirt-successfully;to-update-the-personal-information",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21775141843,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Launch automation practice in web",
+            "match": {
+              "location": "LoginPage.launchAutomationPractice()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 25834852507,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user Signin with credentials",
+            "match": {
+              "location": "LoginPage.userSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16146971879,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Enter email and password",
+            "match": {
+              "location": "LoginPage.enterEmailAndPassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23585019471,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Update the personal information",
+            "match": {
+              "location": "ProductPage.updateThePersonalInformation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24165909,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Confirm personal information updated successfully",
+            "match": {
+              "location": "ProductPage.confirmPersonalInformationUpdatedSuccessfully()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@order"
+          }
+        ]
+      }
+    ],
+    "name": "Ensure customer logs in to the site and  order the T-shirt successfully",
+    "description": "\nAs a customer\nI want to login with my credentials\nSo I can order my Tshirt in the application",
+    "id": "ensure-customer-logs-in-to-the-site-and--order-the-t-shirt-successfully",
+    "keyword": "Feature",
+    "uri": "automation-practice.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AutomationPractice"
+      }
+    ]
+  }
+]

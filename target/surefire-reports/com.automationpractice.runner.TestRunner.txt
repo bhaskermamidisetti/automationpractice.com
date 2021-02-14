@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.automationpractice.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 170.289 s - in com.automationpractice.runner.TestRunner

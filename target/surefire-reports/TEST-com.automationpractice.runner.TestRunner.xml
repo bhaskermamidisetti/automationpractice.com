@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.automationpractice.runner.TestRunner" time="170.289" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/bhaskermamidisetti/Documents/automation-test/Qualitest/target/test-classes:/Users/bhaskermamidisetti/Documents/automation-test/Qualitest/target/classes:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/bhaskermamidisetti/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/bhaskermamidisetti/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/bhaskermamidisetti/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bhaskermamidisetti/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/bhaskermamidisetti/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/bhaskermamidisetti/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/bhaskermamidisetti/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/bhaskermamidisetti/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/bhaskermamidisetti/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/bhaskermamidisetti/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/bhaskermamidisetti/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/bhaskermamidisetti/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/bhaskermamidisetti/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/bhaskermamidisetti/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/bhaskermamidisetti/Documents/automation-test/Qualitest/target/surefire/surefirebooter8417257546579398671.jar /Users/bhaskermamidisetti/Documents/automation-test/Qualitest/target/surefire 2021-02-13T23-38-48_185-jvmRun1 surefire10791928719477157915tmp surefire_011556015748583187660tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/bhaskermamidisetti/Documents/automation-test/Qualitest/target/test-classes:/Users/bhaskermamidisetti/Documents/automation-test/Qualitest/target/classes:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-java/1.2.5/cucumber-java-1.2.5.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-picocontainer/1.2.5/cucumber-picocontainer-1.2.5.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-jvm-deps/1.0.5/cucumber-jvm-deps-1.0.5.jar:/Users/bhaskermamidisetti/.m2/repository/org/picocontainer/picocontainer/2.15/picocontainer-2.15.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/cucumber-html/0.2.3/cucumber-html-0.2.3.jar:/Users/bhaskermamidisetti/.m2/repository/info/cukes/gherkin/2.12.2/gherkin-2.12.2.jar:/Users/bhaskermamidisetti/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/bhaskermamidisetti/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/bhaskermamidisetti/.m2/repository/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar:/Users/bhaskermamidisetti/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/bhaskermamidisetti/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/bhaskermamidisetti/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/bhaskermamidisetti/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/bhaskermamidisetti/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/bhaskermamidisetti/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/bhaskermamidisetti/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/bhaskermamidisetti/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/bhaskermamidisetti/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/bhaskermamidisetti/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/bhaskermamidisetti/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/bhaskermamidisetti"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/13.0.2+8_2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/bhaskermamidisetti/Documents/automation-test/Qualitest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/bhaskermamidisetti/Documents/automation-test/Qualitest/target/surefire/surefirebooter8417257546579398671.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="bhaskermamidisetti"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/bhaskermamidisetti/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/w7/knx28x1d5nv42_5_q2v6k8pr0000gp/T/"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="/Users/bhaskermamidisetti/Documents/automation-test/Qualitest"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/bhaskermamidisetti/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="Given Launch automation practice in web" classname="Scenario: Verify a user can order the Tshirt" time="0.002"/>
+  <testcase name="When The user Signin with credentials" classname="Scenario: Verify a user can order the Tshirt" time="0.001"/>
+  <testcase name="Then Enter email and password" classname="Scenario: Verify a user can order the Tshirt" time="0"/>
+  <testcase name="And The user click on Tshirts" classname="Scenario: Verify a user can order the Tshirt" time="0"/>
+  <testcase name="And Place the Order for Tshirt" classname="Scenario: Verify a user can order the Tshirt" time="0"/>
+  <testcase name="Scenario: Verify a user can order the Tshirt" classname="Scenario: Verify a user can order the Tshirt" time="0.001"/>
+  <testcase name="Given Launch automation practice in web" classname="Scenario: To update the personal information" time="0.001"/>
+  <testcase name="When The user Signin with credentials" classname="Scenario: To update the personal information" time="0"/>
+  <testcase name="Then Enter email and password" classname="Scenario: To update the personal information" time="0"/>
+  <testcase name="And Update the personal information" classname="Scenario: To update the personal information" time="0"/>
+  <testcase name="And Confirm personal information updated successfully" classname="Scenario: To update the personal information" time="0"/>
+  <testcase name="Scenario: To update the personal information" classname="Scenario: To update the personal information" time="0"/>
+</testsuite>
